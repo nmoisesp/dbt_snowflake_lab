@@ -26,7 +26,10 @@ Try running the following commands:
 ### Usefull commands
 dbt run
 dbt run --full-refresh (rebuild incremental tables)
-
+dbt seed
+dbt compile
+dbt source freshness
+dbt snapshot
 
 ### Project structure (pipeline) - FIRST APPROACH
 
