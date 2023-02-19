@@ -30,6 +30,7 @@ dbt seed
 dbt compile
 dbt source freshness
 dbt snapshot
+dbt test
 
 ### Project structure (pipeline) - FIRST APPROACH
 
