@@ -23,6 +23,8 @@ Try running the following commands:
 - Find [dbt events](https://events.getdbt.com) near you
 - Check out [the blog](https://blog.getdbt.com/) for the latest news on dbt's development and best practices
 
+https://github.com/calogica/dbt-expectations
+
 ### Usefull commands
 dbt run
 dbt run --full-refresh (rebuild incremental tables)
@@ -34,6 +36,9 @@ dbt test
 dbt docs generate
 dbt docs serve
 dbt dbs --> install dependencies described in the packages.yml
+dbt test --select dim_listings_with_hosts
+dbt test --select source:airbnb.listing
+dbt --debug test --select source:airbnb.listings
 
 ### Project structure (pipeline) - FIRST APPROACH
 
