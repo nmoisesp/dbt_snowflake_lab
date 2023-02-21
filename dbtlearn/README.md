@@ -33,6 +33,7 @@ dbt snapshot
 dbt test
 dbt docs generate
 dbt docs serve
+dbt dbs --> install dependencies described in the packages.yml
 
 ### Project structure (pipeline) - FIRST APPROACH
 
