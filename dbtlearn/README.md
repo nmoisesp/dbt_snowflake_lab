@@ -31,6 +31,8 @@ dbt compile
 dbt source freshness
 dbt snapshot
 dbt test
+dbt docs generate
+dbt docs serve
 
 ### Project structure (pipeline) - FIRST APPROACH
 
