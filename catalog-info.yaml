@@ -1,0 +1,10 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: dbt_snowflake_lab
+  annotations:
+    github.com/project-slug: nmoisesp/dbt_snowflake_lab
+spec:
+  type: other
+  lifecycle: unknown
+  owner: nmoisesp
