@@ -5,6 +5,6 @@ metadata:
   annotations:
     github.com/project-slug: nmoisesp/dbt_snowflake_lab
 spec:
-  type: other
-  lifecycle: unknown
+  type: data-engineering-pipeline
+  lifecycle: experimental
   owner: nmoisesp
